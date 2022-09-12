@@ -1,9 +1,6 @@
 import './App.css'
 import 'animate.css/animate.min.css'
 import Aos from 'aos'
-import Fade from 'react-reveal/Fade'
-import Bounce from 'react-reveal/Bounce'
-import Slide from 'react-reveal/Slide'
 import logo from './images/logo.svg'
 import hero from './images/heroimg.png'
 import second from './images/second.png'
@@ -94,9 +91,8 @@ function App() {
             <div>
               <button className='btn'>
                 <h4> Try For Free</h4>
-                <Fade left>
-                  <BsFillPlayCircleFill className='btn-icon' />
-                </Fade>
+
+                <BsFillPlayCircleFill className='btn-icon' />
               </button>
             </div>
           </div>
@@ -147,14 +143,12 @@ function App() {
       </section>
       <section className='why section1'>
         <div className='why-text'>
-          <Slide left>
-            <h3>WHY YOU SHOULD CHOOSE CHAPPO</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-              quis unde qui maiores. Excepturi maiores magnam iure sed corporis
-              ad.
-            </p>
-          </Slide>
+          <h3>WHY YOU SHOULD CHOOSE CHAPPO</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+            quis unde qui maiores. Excepturi maiores magnam iure sed corporis
+            ad.
+          </p>
 
           <button className='btn learn'>learn more</button>
         </div>
