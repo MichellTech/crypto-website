@@ -772,6 +772,7 @@ li.round {
   top: 0;
   left: 0;
   background-color: #0d0d2b;
+  transition: 20s linear all;
 }
 .fixed.fixes {
   display: none;

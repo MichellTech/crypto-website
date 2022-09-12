@@ -1,6 +1,5 @@
 import './App.css'
 import 'animate.css/animate.min.css'
-import ScrollAnimation from 'react-animate-on-scroll'
 import Aos from 'aos'
 import Fade from 'react-reveal/Fade'
 import Bounce from 'react-reveal/Bounce'
@@ -303,7 +302,11 @@ function App() {
               </p>
               <button className='learno'>learn more</button>
             </div>
-            <div data-aos='zoom-out-down' className='market-img'>
+            <div
+              data-aos='zoom-out-down'
+              data-aos-duration='8000'
+              className='market-img'
+            >
               <img src={feat} alt='feat' className='feat' />
             </div>
           </div>
@@ -316,7 +319,11 @@ function App() {
               </p>
               <button className='learno'>learn more</button>
             </div>
-            <div data-aos='zoom-out-right' className='market-img'>
+            <div
+              data-aos='zoom-out-right'
+              data-aos-duration='8000'
+              className='market-img'
+            >
               <img src={feat1} alt='feat' className='feat' />
             </div>
           </div>
@@ -329,7 +336,11 @@ function App() {
               </p>
               <button className='learno'>learn more</button>
             </div>
-            <div data-aos='zoom-out-left' className='market-img'>
+            <div
+              data-aos='zoom-out-left'
+              data-aos-duration='8000'
+              className='market-img'
+            >
               <img src={feat2} alt='feat' className='feat' />
             </div>
           </div>
